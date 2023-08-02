@@ -35,6 +35,10 @@
   padding: 32px;
 }
 
+.cover__paragraph {
+  margin: 0;
+}
+
 .cover .button {
   align-self: center;
 }
