@@ -1,0 +1,132 @@
+.places-section {
+  max-width: 984px;
+  width: 100%;
+  margin: 92px auto;
+}
+
+.places {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.places__item {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  column-gap: 40px;
+  row-gap: 48px;
+  margin-bottom: 80px;
+}
+
+.places__title {
+  max-width: 460px;
+  color: #fff;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 1.05;
+  margin: 0;
+}
+
+.places__artist {
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+
+.places__artist-heading {
+  color: #aaa;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.44px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.places__artist-name {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.22;
+  margin: 0;
+}
+
+.places__image {
+  width: 100%;
+}
+
+.places__description {
+  row-gap: 25px;
+  grid-column: 2;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+
+.places__paragraph {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.22;
+  margin: 0 0 27px;
+}
+
+.places-section .button {
+  grid-row: 3;
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .places-section {
+    padding-left: 24px;
+    padding-right: 24px;
+    max-width: calc(100% - 48px);
+  }
+  .places__title {
+    font-size: 42px;
+    line-height: 1.09;
+  }
+  .places__paragraph {
+    font-size: 16px;
+    line-height: 1.63;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .places__item {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0;
+    margin-bottom: 37px;
+  }
+
+  .places__title,
+  .places__artist,
+  .places__description {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .places__title {
+    font-size: 32px;
+    line-height: 1.09;
+    margin-bottom: 30px;
+  }
+  .places__artist {
+    margin-bottom: 30px;
+  }
+
+  .places__image {
+    margin-bottom: 15px;
+  }
+
+  .places__description {
+    margin-bottom: 9px;
+    line-height: 1.63;
+  }
+
+  .places-section .button {
+    font-size: 14px;
+    max-width: calc(100% - 32px);
+    margin: 0 auto;
+  }
+}
