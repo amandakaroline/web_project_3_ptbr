@@ -1,0 +1,17 @@
+.button {
+  width: fit-content;
+  height: fit-content;
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 13px 20px;
+  border-radius: 4px;
+  background: #0278fe;
+  text-decoration: none;
+}
+
+.button:hover {
+  background: #0063d2;
+}
