@@ -3,7 +3,7 @@
 
 **Descrição**
 
-Este é um projeto que mostra as cidades de origem de alguns funcionários do Tripleten, e também aproveitei para introduzir a minha cidade natal, Londrina. A ideia deste projeto é criar uma página onde todos os elementos sejam exibidos corretamente em tamanhos de tela populares, iniciando assim a prática com sites responsivos.
+Este é um projeto que mostra as cidades de origem de alguns funcionários do Tripleten, e também aproveitei para introduzir a minha cidade natal, Londrina. O objetivo deste projeto é criar uma página onde todos os elementos sejam exibidos corretamente em tamanhos de tela populares, iniciando assim a prática com sites responsivos, grid layout e Figma.
 
 
 **Tecnologias e Técnicas**
@@ -16,6 +16,6 @@ Este é um projeto que mostra as cidades de origem de alguns funcionários do Tr
 
 **GitHub Pages**
 
---Introduzir link aqui após projeto ser aprovado!--
+https://amandakaroline.github.io/web_project_3_ptbr
 
 Espero que gostem!
